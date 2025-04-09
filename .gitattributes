@@ -1,0 +1,9 @@
+# Set default behavior to automatically normalize line endings
+* text=auto eol=lf
+
+# Force all batch scripts to use `crlf` line endings
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
+
+# Force bas scripts to always use `lf` line endings
+*.sh text eol=lf
