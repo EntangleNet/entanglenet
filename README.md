@@ -17,7 +17,7 @@ See the [license][LICENSE] file for more information.
 
 <!-- =========================================================================================== -->
 
-[back-to-top]: #EntangleNet
+[back-to-top]: #entanglenet
 [license]: https://github.com/skyeBreach/entanglenet/blob/main/LICENSE
 
 <!-- =========================================================================================== -->
