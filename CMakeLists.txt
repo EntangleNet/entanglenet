@@ -32,4 +32,10 @@ include(ProjectOptions)
 include(ProjectDependencies)
 
 # ================================================================================================ #
+# Project Submodules
+
+add_subdirectory(src)
+add_subdirectory(apps)
+
+# ================================================================================================ #
 
