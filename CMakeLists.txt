@@ -1,7 +1,7 @@
 # ================================================================================================ #
 # Pre-Project Config
 
-cmake_minimum_required(VERSION 3.31 FATAL_ERROR)
+scmake_minimum_required(VERSION 3.28)
 
 # Run the Prelude module before we do anything in this file
 include(cmake/Prelude.cmake)
