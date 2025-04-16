@@ -6,6 +6,13 @@ cmake_minimum_required(VERSION 3.28)
 # Run the Prelude module before we do anything in this file
 include(cmake/Prelude.cmake)
 
+# Run Clang Tidy and check header files as well.  Warnings will be treated as Errors.
+set(CMAKE_CXX_CLANG_TIDY
+		clang-tidy;
+		-header-filter=.;
+		-checks=*;
+		-warnings-as-errors=*;)
+
 # Allow CMake to search for project-specific modules
 list(APPEND CMAKE_MODULE_PATH
 	"${CMAKE_CURRENT_SOURCE_DIR}/cmake"
