@@ -3,6 +3,8 @@
 
 # Directories
 out/
+.idea/
+cmake-build-debug/
 
 # ================================================================================================ #
 # Development Utilities
