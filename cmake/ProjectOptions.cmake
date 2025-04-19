@@ -21,4 +21,7 @@ endif()
 
 # ================================================================================================ #
 
-option(ENTANGLENET_ENABLE_CLANG_TIDY "Enable clang-tidy" OFF)
+option(CMake_RUN_CLANG_TIDY "Run clang-tidy with the compiler." OFF)
+if(CMake_RUN_CLANG_TIDY)
+    include(ClangTidy.cmake)
+endif()
