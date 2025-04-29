@@ -42,30 +42,31 @@
     <!-- Badges -->
     <p>
         <!-- License Badge -->
-        <a href="https://github.com/EntangleNet/entanglenet/blob/main/LICENSE">
-            <img
-                alt="License Badge"
-                src="https://flat.badgen.net/github/license/EntangleNet/entanglenet"
-            >
-        </a>
+        <a
+            href="https://github.com/EntangleNet/entanglenet/blob/main/LICENSE"
+        ><img
+            alt="License Badge"
+            src="https://flat.badgen.net/github/license/EntangleNet/entanglenet"
+        ></a>
         <!-- TODO: Set the correct link -->
         <!-- Github Stars Badge -->
-        <a href="">
-            <img
-                alt="GitHub Stars Badge"
-                src="https://flat.badgen.net/github/stars/EntangleNet/entanglenet"
-            />
-        </a>
+        <a
+            href=""
+        ><img
+            alt="GitHub Stars Badge"
+            src="https://flat.badgen.net/github/stars/EntangleNet/entanglenet"
+        /></a>
         <!-- TODO: Set the correct link -->
         <!-- TODO: Set the correct badge from flat.badgen.net -->
         <!-- Build Status -->
-        <a href="https://github.com/EntangleNet/entanglenet/actions">
-            <img
-                alt="Build Status"
-                src="https://img.shields.io/github/actions/workflow/status/EntangleNet/entanglenet/ci.yml?label=CI"
-            >
-        </a>
+        <a
+            href="https://github.com/EntangleNet/entanglenet/actions"
+        ><img
+            alt="Build Status"
+            src="https://img.shields.io/github/actions/workflow/status/EntangleNet/entanglenet/ci.yml?label=CI"
+        ></a>
     </p>
+    <hr/>
 </div>
 
 The EntangleNet Team really need to replace me with an actual brief!
