@@ -62,8 +62,6 @@
     </p>
 </div>
 
-# EntangleNet
-
 The EntangleNet Team really need to replace me with an actual brief!
 
 > [!CAUTION]
