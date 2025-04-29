@@ -6,8 +6,14 @@
         width="150"
     />
     <!-- Name & Tagline -->
-    <h1>EntangleNet</h1>
-    <h3>Temporary Tagline</h3>
+    <div id="toc">
+        <ul style="list-style: none; padding: 0;">
+            <summary>
+                    <h1>EntangleNet</h1>
+                    <p>Temporary Tagline</p>
+            </summary>
+        </ul>
+    </div>
     <!-- Header Break -->
     <hr/>
     <!-- Quicklinks -->
