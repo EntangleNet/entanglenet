@@ -2,8 +2,7 @@
     <!-- TODO: Replace with correct logo -->
     <!-- Project/Repository Logo -->
     <img alt="EntangleNet Logo"
-        src="https://placehold.co/600x400/9A7FDF/FFFFFF?text=EntangleNet Logo"
-        width="150"
+        src="https://placehold.co/300x150/9A7FDF/FFFFFF?text=EntangleNet Logo"
     />
     <!-- Name & Tagline -->
     <div id="toc">
