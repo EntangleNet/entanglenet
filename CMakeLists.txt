@@ -38,13 +38,4 @@ add_subdirectory(src)
 add_subdirectory(apps)
 
 # ================================================================================================ #
-# Targets
 
-# Clang Format (--target format)
-file(GLOB_RECURSE ALL_SOURCE FILES
-		*.c *.h *.cpp *.hpp *.cxx *.hxx *.cc *.hh *.cppm *.ipp *.ixx)
-add_custom_target(format
-		COMMAND clang-format
-		-i
-		${ALL_SOURCE_FILES}
-)

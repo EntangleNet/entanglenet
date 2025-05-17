@@ -21,4 +21,3 @@ endif()
 
 # ================================================================================================ #
 
-option(ENTANGLENET_ENABLE_CLANG_TIDY "Enable clang-tidy" OFF)
