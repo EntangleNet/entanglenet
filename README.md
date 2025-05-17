@@ -5,18 +5,18 @@
         src="https://placehold.co/300x150/9A7FDF/FFFFFF?text=EntangleNet+Logo"
         width=300
     />
-    <!-- Name & Tagline -->
+    <!-- Name & Tag line -->
     <div id="toc">
         <ul style="list-style: none; padding: 0;">
             <summary>
                     <h1>EntangleNet</h1>
-                    <p>Temporary Tagline</p>
+                    <p>Temporary Tag line</p>
             </summary>
         </ul>
     </div>
     <!-- Header Break -->
     <hr/>
-    <!-- Quicklinks -->
+    <!-- Quick links -->
     <p align="center">
         &lt;<a href="https://github.com/EntangleNet/entanglenet">Website</a>&gt;
         <span>&nbsp;&#8226;&nbsp;</span>
@@ -74,7 +74,8 @@ The EntangleNet Team really need to replace me with an actual brief!
 > [!CAUTION]
 > **Early Development Warning**
 >
-> Due to BreachOps-Docs being very early in development it is currently **NOT** recommended to use it in any production
+> Due to EntangleNet being very early in development it is currently **NOT** recommended to use it
+> in any production
 > environment.
 >
 > If you choose to ignore the above **WARNING**, then you do so at your **OWN** risk.
@@ -103,7 +104,7 @@ The EntangleNet Team really need to replace me with an actual brief!
 <!-- TODO: Add Overview -->
 ## Overview
 
-> Unfortunatly we have not gotten around to writing this section yet.
+> Unfortunately we have not gotten around to writing this section yet.
 >
 > We hope to have it written soon!
 
@@ -114,10 +115,9 @@ The EntangleNet Team really need to replace me with an actual brief!
 <!-- TODO: Add Features -->
 ## Features
 
-> Unfortunatly we have not gotten around to writing this section yet.
+> Unfortunately we have not gotten around to writing this section yet.
 >
 > We hope to have it written soon!
-
 
 [🔼 Back to Top][back-to-top]
 
@@ -126,7 +126,7 @@ The EntangleNet Team really need to replace me with an actual brief!
 <!-- TODO: Add Installation -->
 ## Installation
 
-> Unfortunatly we have not gotten around to writing this section yet.
+> Unfortunately we have not gotten around to writing this section yet.
 >
 > We hope to have it written soon!
 
@@ -136,7 +136,7 @@ The EntangleNet Team really need to replace me with an actual brief!
 <!-- TODO: Add Getting Started -->
 ## Quick Start
 
-> Unfortunatly we have not gotten around to writing this section yet.
+> Unfortunately we have not gotten around to writing this section yet.
 >
 > We hope to have it written soon!
 
@@ -147,7 +147,7 @@ The EntangleNet Team really need to replace me with an actual brief!
 <!-- TODO: Add Configuration -->
 ## Configuration
 
-> Unfortunatly we have not gotten around to writing this section yet.
+> Unfortunately we have not gotten around to writing this section yet.
 >
 > We hope to have it written soon!
 
@@ -158,7 +158,7 @@ The EntangleNet Team really need to replace me with an actual brief!
 <!-- TODO: Add Documentation -->
 ## Documentation
 
-> Unfortunatly we have not gotten around to writing this section yet.
+> Unfortunately we have not gotten around to writing this section yet.
 >
 > We hope to have it written soon!
 
@@ -169,7 +169,7 @@ The EntangleNet Team really need to replace me with an actual brief!
 <!-- TODO: Add Contributing -->
 ## Contributing
 
-> Unfortunatly we have not gotten around to writing this section yet.
+> Unfortunately we have not gotten around to writing this section yet.
 >
 > We hope to have it written soon!
 
@@ -180,7 +180,7 @@ The EntangleNet Team really need to replace me with an actual brief!
 <!-- TODO: Add FAQ -->
 ## FAQ
 
-> Unfortunatly we have not gotten around to writing this section yet.
+> Unfortunately we have not gotten around to writing this section yet.
 >
 > We hope to have it written soon!
 
@@ -201,4 +201,3 @@ See the [license][LICENSE] file for more information.
 [license]: https://github.com/EntangleNet/entanglenet/blob/main/LICENSE
 
 <!-- =========================================================================================== -->
-
