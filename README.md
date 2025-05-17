@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD041 -->
 <div align="center">
     <!-- TODO: Replace with correct logo -->
     <!-- Project/Repository Logo -->
@@ -197,7 +198,7 @@ See the [license][LICENSE] file for more information.
 
 <!-- =========================================================================================== -->
 
-[back-to-top]: #entanglenet
+[back-to-top]: https://github.com/EntangleNet/entanglenet#entanglenet
 [license]: https://github.com/EntangleNet/entanglenet/blob/main/LICENSE
 
 <!-- =========================================================================================== -->
