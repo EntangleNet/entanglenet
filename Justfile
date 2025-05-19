@@ -17,13 +17,6 @@ dir_cmake   := project_path/"cmake"
 dir_scripts := project_path/"scripts"
 
 # ================================================================================================ #
-# Command-Line Helpers
-
-# Helper terminal command prefix to allow for easy just recipe calling
-# This is required as Just doesnt nativuly allow recipes to call other recipes with dep
-call_recipe := just_executable() + " --justfile=" + justfile()
-
-# ================================================================================================ #
 # Project Info
 
 # Output usage and helpful command info for the project
@@ -31,36 +24,42 @@ help:
     @just --list --alias-style=separate --justfile {{justfile()}}
 _default: help
 
-# Output current system information such as OS and Architecture
-[group("info")]
-@system-info:
-    echo $'\n{{BOLD}}{{UNDERLINE}}System Info{{NORMAL}}'
-    echo "    {{BOLD}}Architecture:{{NORMAL}} {{arch()}}"
-    echo "    {{BOLD}}OS:{{NORMAL}} {{os()}}"
-    echo "    {{BOLD}}OS Family:{{NORMAL}} {{os_family()}}"
+# Display information relevant to this system
+@info:
+    echo "{{BOLD}}Architecture:{{NORMAL}} {{arch()}}"
+    echo "{{BOLD}}OS:{{NORMAL}} {{os()}}"
+    echo "{{BOLD}}OS Family:{{NORMAL}} {{os_family()}}"
 
 # ================================================================================================ #
-# File System Management
+# Tooling
 
-# Removes the provided files/dirs and cleans their data
-[group("file-system")]
-@clean-targets +targets:
-    {{dir_scripts}}/clean-targets.sh {{targets}}
+# Lints the source code, config files, and docs
+@lint:
+    cmake-lint ./**/*.cmake CMakeLists.txt
+    yamllint .
+    markdownlint-cli2 ./*.md docs/**/*.md
 
-# Clean out all generated files (bui1ld, cache, etc) from the project
-[group("file-system")]
-@clean: ( clean-targets dir_build dir_install dir_cache )
+# Formats the source code by running all format-* recipes
+@format:
+    cmake-format **/*.cmake CMakeLists.txt -i
+
+# Cleans frequently auto-generated files and directories (e.g. target)
+clean:
+    rm -r {{dir_build}}
+    rm -r {{dir_install}}
+    rm -r {{dir_cache}}
+
+# Cleans all auto-generated files and directories (e.g. docs, lockfile)
+nuke: clean
 
 # ================================================================================================ #
 # Project Configuration
 
 # Generates the config data for CMake
-[group("config")]
 config:
     cmake -S . -B {{dir_build}} -G "Ninja Multi-Config"
 
 # Cleans and then reconfigures the cmake project
-[group("config")]
 reconfig: clean config
 
 # ================================================================================================ #
