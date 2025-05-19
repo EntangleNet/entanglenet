@@ -1,6 +1,5 @@
 <!-- markdownlint-disable MD041 -->
 <div align="center">
-    <!-- TODO: Replace with correct logo -->
     <!-- Project/Repository Logo -->
     <img alt="EntangleNet Logo"
         src="https://placehold.co/300x150/9A7FDF/FFFFFF?text=EntangleNet+Logo"
@@ -29,17 +28,6 @@
         <span>&nbsp;&#8226;&nbsp;</span>
         &lt;<a href="./docs/pages/faq.md">FAQ</a>&gt;
     </p>
-    <!-- TODO: Badges
-        - [x] TODO: License
-        - [ ] TODO: Release
-        - [ ] TODO: Docs**
-        - [ ] TODO: Commit Activity*
-        - [ ] TODO: Stars
-        - [ ] TODO: Downloads*
-        - [ ] TODO: Build Pipeline
-        - [ ] TODO: Test Pipeline
-        - [ ] TODO: Chat/Discord*
-    -->
     <!-- Badges -->
     <p>
         <!-- License Badge -->
@@ -48,8 +36,7 @@
         ><img
             alt="License Badge"
             src="https://flat.badgen.net/github/license/entanglenet/entanglenet"
-        ></a>
-        <!-- TODO: Set the correct link -->
+        /></a>
         <!-- GitHub Stars Badge -->
         <a
             href="https://github.com/entanglenet/entanglenet/stargazers"
@@ -57,15 +44,13 @@
             alt="GitHub Stars Badge"
             src="https://flat.badgen.net/github/stars/entanglenet/entanglenet"
         /></a>
-        <!-- TODO: Set the correct link -->
-        <!-- TODO: Set the correct badge from flat.badgen.net -->
         <!-- Build Status -->
         <a
             href="https://github.com/entanglenet/entanglenet/actions"
         ><img
             alt="Build Status"
             src="https://img.shields.io/github/actions/workflow/status/entanglenet/entanglenet/ci.yml?label=CI"
-        ></a>
+        /></a>
     </p>
     <hr/>
 </div>
@@ -84,7 +69,7 @@ The EntangleNet Team really need to replace me with an actual brief!
 
 <details><summary><h2>Table of Contents</h2></summary>
 
-<!-- toc-start -->
+<!-- toc -->
 
 - [Overview](#overview)
 - [Features](#features)
@@ -96,7 +81,7 @@ The EntangleNet Team really need to replace me with an actual brief!
 - [FAQ](#faq)
 - [License](#license)
 
-<!-- toc-end -->
+<!-- tocstop -->
 
 </details>
 
