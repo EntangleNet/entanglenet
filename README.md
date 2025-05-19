@@ -35,7 +35,7 @@
             href="https://github.com/entanglenet/entanglenet/blob/main/LICENSE"
         ><img
             alt="License Badge"
-            src="https://flat.badgen.net/github/license/entanglenet/entanglenet"
+            src="https://flat.badgen.net/github/license/entanglenet/entanglenet/?cache=300"
         /></a>
         <!-- GitHub Stars Badge -->
         <a
