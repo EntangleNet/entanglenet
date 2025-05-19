@@ -50,7 +50,7 @@
             src="https://flat.badgen.net/github/license/EntangleNet/entanglenet"
         ></a>
         <!-- TODO: Set the correct link -->
-        <!-- Github Stars Badge -->
+        <!-- GitHub Stars Badge -->
         <a
             href=""
         ><img
