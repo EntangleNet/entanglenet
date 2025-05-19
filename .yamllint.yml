@@ -1,0 +1,19 @@
+---
+extends: default
+rules:
+  line-length:
+    max: 100
+    level: warning
+  document-start:
+    present: true
+    level: error
+  document-end:
+    present: true
+    level: error
+  new-lines:
+    type: unix
+  empty-lines:
+    max: 1
+    max-start: 0
+    max-end: 0
+...
