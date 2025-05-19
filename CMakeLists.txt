@@ -7,12 +7,11 @@ cmake_minimum_required(VERSION 3.28)
 include(cmake/Prelude.cmake)
 
 # Allow CMake to search for project-specific modules
-list(APPEND CMAKE_MODULE_PATH
-    "${CMAKE_CURRENT_SOURCE_DIR}/cmake"
-    "${CMAKE_CURRENT_BINARY_DIR}/cmake"
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake"
+     "${CMAKE_CURRENT_BINARY_DIR}/cmake"
 )
 
-# ===================================================================================================== #
+# ================================================================================================ #
 # Project Configuration
 
 project(
@@ -20,8 +19,7 @@ project(
     VERSION 0.1.0
     LANGUAGES C CXX
     HOMEPAGE_URL https://github.com/EntangleNet/entanglenet
-    DESCRIPTION
-        ""
+    DESCRIPTION ""
 )
 
 # Import/include all project configuration helper modules.
@@ -38,4 +36,3 @@ add_subdirectory(src)
 add_subdirectory(apps)
 
 # ================================================================================================ #
-

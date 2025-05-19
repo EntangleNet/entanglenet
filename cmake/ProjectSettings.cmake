@@ -24,10 +24,10 @@ endif()
 # System Information
 
 # Store the system type in its own variable, for use by version.h
-message ("-- System: ${CMAKE_SYSTEM_NAME}")
+message("-- System: ${CMAKE_SYSTEM_NAME}")
 if(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
     set(LINUX true)
-else ()
+else()
     set(UNKNOWN true)
 endif()
 
@@ -35,25 +35,23 @@ endif()
 # Build Types
 
 # Configurable Settings for the Build Type
-set(BUILD_TYPES
-    "Debug"
-    "RelWithDebInfo"
-    "Release"
-)
+set(BUILD_TYPES "Debug" "RelWithDebInfo" "Release")
 list(GET BUILD_TYPES 0 BUILD_TYPES_DEFAULT)
 
 # Set the required options depending on the generator type
 if(IS_MULTI_CONFIG)
-    # Specifies the available build types (configs) on multi-config generators.
-    # See,
-    #   - https://cmake.org/cmake/help/latest/variable/CMAKE_CONFIGURATION_TYPES.html
-    #   - https://cmake.org/cmake/help/latest/generator/Ninja%20Multi-Config.html
-    #   - https://ninja-build.org/manual.html
-    set(CMAKE_CONFIGURATION_TYPES ${BUILD_TYPES} CACHE STRING "" FORCE)
+    # Specifies the available build types (configs) on multi-config generators. See, -
+    # https://cmake.org/cmake/help/latest/variable/CMAKE_CONFIGURATION_TYPES.html -
+    # https://cmake.org/cmake/help/latest/generator/Ninja%20Multi-Config.html -
+    # https://ninja-build.org/manual.html
+    set(CMAKE_CONFIGURATION_TYPES
+        ${BUILD_TYPES}
+        CACHE STRING "" FORCE
+    )
 else()
     # Set the build type to the default, if none supplied
     if(NOT CMAKE_BUILD_TYPE)
-        message(STATUS "Setting the build type to '${BUILD_TYPES_DEFAULT}' as one wasn't specified!")
+        message(STATUS "Defaulting the build type to '${BUILD_TYPES_DEFAULT}'!")
         set(CMAKE_BUILD_TYPE
             ${BUILD_TYPES_DEFAULT}
             CACHE STRING "Choose the build type to use" FORCE
@@ -61,10 +59,7 @@ else()
     endif()
 
     # Set the possible build types, to the defined list above for CMake-GUI
-    set_property(
-        CACHE CMAKE_BUILD_TYPE
-        PROPERTY STRINGS ${BUILD_TYPES}
-    )
+    set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS ${BUILD_TYPES})
     message(STATUS ${BUILD_TYPES})
 endif()
 
@@ -91,4 +86,3 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 message(STATUS "Globally Disable Compiler-Specific C++ and C Extensions")
 
 # ================================================================================================ #
-
