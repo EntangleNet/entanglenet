@@ -19,7 +19,7 @@
     <hr/>
     <!-- Quick links -->
     <p align="center">
-        &lt;<a href="https://github.com/EntangleNet/entanglenet">Website</a>&gt;
+        &lt;<a href="https://github.com/entanglenet/entanglenet">Website</a>&gt;
         <span>&nbsp;&#8226;&nbsp;</span>
         &lt;<a href="./docs/pages/index.md">Documentation</a>&gt;
         <span>&nbsp;&#8226;&nbsp;</span>
@@ -44,27 +44,27 @@
     <p>
         <!-- License Badge -->
         <a
-            href="https://github.com/EntangleNet/entanglenet/blob/main/LICENSE"
+            href="https://github.com/entanglenet/entanglenet/blob/main/LICENSE"
         ><img
             alt="License Badge"
-            src="https://flat.badgen.net/github/license/EntangleNet/entanglenet"
+            src="https://flat.badgen.net/github/license/entanglenet/entanglenet"
         ></a>
         <!-- TODO: Set the correct link -->
         <!-- GitHub Stars Badge -->
         <a
-            href=""
+            href="https://github.com/entanglenet/entanglenet/stargazers"
         ><img
             alt="GitHub Stars Badge"
-            src="https://flat.badgen.net/github/stars/EntangleNet/entanglenet"
+            src="https://flat.badgen.net/github/stars/entanglenet/entanglenet"
         /></a>
         <!-- TODO: Set the correct link -->
         <!-- TODO: Set the correct badge from flat.badgen.net -->
         <!-- Build Status -->
         <a
-            href="https://github.com/EntangleNet/entanglenet/actions"
+            href="https://github.com/entanglenet/entanglenet/actions"
         ><img
             alt="Build Status"
-            src="https://img.shields.io/github/actions/workflow/status/EntangleNet/entanglenet/ci.yml?label=CI"
+            src="https://img.shields.io/github/actions/workflow/status/entanglenet/entanglenet/ci.yml?label=CI"
         ></a>
     </p>
     <hr/>
@@ -198,7 +198,7 @@ See the [license][LICENSE] file for more information.
 
 <!-- =========================================================================================== -->
 
-[back-to-top]: https://github.com/EntangleNet/entanglenet#entanglenet
-[license]: https://github.com/EntangleNet/entanglenet/blob/main/LICENSE
+[back-to-top]: https://github.com/entanglenet/entanglenet#entanglenet
+[license]: https://github.com/entanglenet/entanglenet/blob/main/LICENSE
 
 <!-- =========================================================================================== -->
